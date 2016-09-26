@@ -7,7 +7,7 @@
 const webpack = require('webpack');
 const WebpackBaseConfig = require('./Base');
 
-class WebpackDistConfig extends WebpackBaseConfig {
+class WebpackProdConfig extends WebpackBaseConfig {
 
   constructor() {
     super();
@@ -34,4 +34,4 @@ class WebpackDistConfig extends WebpackBaseConfig {
   }
 }
 
-module.exports = WebpackDistConfig;
+module.exports = WebpackProdConfig;
